@@ -1713,6 +1713,59 @@ function getStandards () {
 					description: 'This [element type] does not have a value available to an accessibility API. Add one [using a element-specific method].'
 				}
 			]
+		},
+		{
+		  title: 'BBCA11y',
+		  rules: [
+		    {
+		      name: 'BBCA11y.Standards.focusableControls.anchorsMustHaveHrefs',
+		      description: 'Anchors must have hrefs'
+		    },
+		    {
+		      name: 'BBCA11y.Standards.formInteractions.formsMustHaveSubmitButtons',
+		      description: 'Forms must have submit buttons'
+		    },
+		    {
+		      name: 'BBCA11y.Standards.formLabels.fieldsMustHaveLabelsOrTitles',
+		      description: 'Fields must have labels or titles'
+		    },
+		    {
+		      name: 'BBCA11y.Standards.headings.contentMustFollowHeadings',
+		      description: 'Content must follow headings'
+		    },
+		    {
+		      name: 'BBCA11y.Standards.headings.exactlyOneMainHeading',
+		      description: 'Exactly one main heading'
+		    },
+		    {
+		      name: 'BBCA11y.Standards.headings.headingsMustBeInAscendingOrder',
+		      description: 'Headings must be in ascending order'
+		    },
+		    {
+		      name: 'BBCA11y.Standards.imageAlternatives.imagesMustHaveAltAttributes',
+		      description: 'Images must have alt attributes'
+		    },
+		    {
+		      name: 'BBCA11y.Standards.indicatingLanguage.htmlMustHaveLangAttribute',
+		      description: 'Html must have lang attribute'
+		    },
+		    {
+		      name: 'BBCA11y.Standards.mainLandmark.exactlyOneMainLandmark',
+		      description: 'Exactly one main landmark'
+		    },
+		    {
+		      name: 'BBCA11y.Standards.minimumTextSize.minimumTextSize',
+		      description: 'Minimum text size'
+		    },
+		    {
+		      name: 'BBCA11y.Standards.tabIndex.elementsWithZeroTabIndexMustBeFields',
+		      description: 'Elements with zero tab index must be fields'
+		    },
+		    {
+		      name: 'BBCA11y.Standards.titleAttributes.titleAttributesOnlyOnInputs',
+		      description: 'Title attributes only on inputs'
+		    }
+		  ]
 		}
 	];
 }
